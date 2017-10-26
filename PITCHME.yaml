@@ -1,0 +1,3 @@
+footnote : "Arolla - Formation TDD"
+theme-override : resources/PITCHME.css
+transition : none

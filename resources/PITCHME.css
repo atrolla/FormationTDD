@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
+    font-family: 'Permanent Marker', cursive;
+    color: #FAA063;
+}
