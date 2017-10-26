@@ -1,8 +1,6 @@
 ---?image=resources/img/arolla-software-craftsmanship.jpg
 
-## Formation TDD
-
-### Yvan VU @JeSuisSocial
+<h2 class='white'>Formation TDD</h2>
 
 ---
 
