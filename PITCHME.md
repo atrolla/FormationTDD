@@ -54,7 +54,7 @@ Outil de VOTRE design que vous faites « émerger »
 
 #### La méthodologie
 
-<img src="resources/img/Extreme_Programming.png" style="height:600px;" />
+<img src="resources/img/Extreme_Programming.png" style="height:560px;" />
 
 "Agilité appliquée au développement"
 
@@ -69,6 +69,32 @@ Aka « double loop TDD »
 
 #### 3 lois du TDD
 
-1. Vous ne devez pas écrire du code de production avant d’avoir écris un test en échec.
+1. Vous ne devez pas écrire du code de production avant d’avoir écrit un test en échec.
 2. Vous ne devez pas écrire plus de test unitaire que le minimum pour qu’il échoue et ne pas compiler est un échec.
 3. Vous ne devez pas écrire plus de code de production que le minimum pour faire passer le test unitaire actuellement en échec.
+
++++
+
+<img src="resources/img/3-rules-tdd.jpg" style="height:600px;" /> 
+
++++
+
+#### Boucle Red - Green - Refactor 
+
+<img src="resources/img/red-green-refactor.jpg" style="height:600px;" /> 
+
++++
+
+#### Inside Out
+
+(Classic Chicago school, bottom-up)
+
+#### Outside In
+
+(London School, top-down, mockist TDD)
+
++++
+
+#### Double loop TDD
+
+<img src="http://coding-is-like-cooking.info/wp-content/uploads/2013/05/london_school_001.jpg" style="height:600px;" /> 
