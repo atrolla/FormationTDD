@@ -81,7 +81,7 @@ Aka « double loop TDD »
 
 #### Boucle Red - Green - Refactor 
 
-<img src="resources/img/red-green-refactor.jpg" style="height:600px;" /> 
+<img src="resources/img/red-green-refactor.jpg" style="height:560px;" /> 
 
 +++
 
@@ -97,4 +97,32 @@ Aka « double loop TDD »
 
 #### Double loop TDD
 
-<img src="http://coding-is-like-cooking.info/wp-content/uploads/2013/05/london_school_001.jpg" style="height:600px;" /> 
+<img src="http://coding-is-like-cooking.info/wp-content/uploads/2013/05/london_school_001.jpg" style="height:560px;" /> 
+
+---
+
+#### Anatomie d'un test
+```
+@Test
+public void should_be_able_to_send_an_email() throws Exception {
+    //
+    // GIVEN
+    //
+    Session session = Session.getInstance(new Properties(), null);
+    Message msg = createMessage(session);
+
+    //
+    // WHEN
+    //
+    sendMessage(session, msg);
+
+    //
+    // THEN
+    //     fetch messages from server
+    MimeMessage[] messages = mailServer.getReceivedMessages();
+    assertThat(messages).hasSize(1);
+    assertThat(messages[0].getSubject()).isEqualTo(EMAIL_SUBJECT);
+    assertThat(messages[0].getContent().toString().trim()).isEqualTo(EMAIL_TEXT);
+    assertThat(messages[0].getFrom()[0].toString()).isEqualTo(EMAIL_TO);
+}
+```
