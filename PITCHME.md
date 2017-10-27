@@ -54,7 +54,7 @@ Outil de VOTRE design que vous faites « émerger »
 
 #### La méthodologie
 
-<img src="resources/img/Extreme_Programming.jpg" style="height:600px;" />
+<img src="resources/img/Extreme_Programming.png" style="height:600px;" />
 
 "Agilité appliquée au développement"
 
@@ -68,3 +68,7 @@ Aka « double loop TDD »
 +++
 
 #### 3 lois du TDD
+
+1. Vous ne devez pas écrire du code de production avant d’avoir écris un test en échec.
+2. Vous ne devez pas écrire plus de test unitaire que le minimum pour qu’il échoue et ne pas compiler est un échec.
+3. Vous ne devez pas écrire plus de code de production que le minimum pour faire passer le test unitaire actuellement en échec.
