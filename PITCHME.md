@@ -31,17 +31,20 @@ Pourquoi on teste ? TDD selon vous ? (permet de voir si public sensibilisé)
 
 #### TDD : Les promesses (le ROI)
 
-Documentation vivante Agile
+- Documentation vivante Agile
 Dans le même repo que le code de production : synchronisée
 Exécutable : sa validation est à jour
 L’intégration continue, valide cette spécification systématiquement
-Spécification technique par l’exemple
+- Spécification technique par l’exemple
 Écrite avant le code pour implémenter et maintenir la fonctionnalité
 Vérifie le comportement attendu, pas les détails d’implémentation
 Note : BBD peut être vu comme une spécification fonctionnelle vivante et agile
-Outil de design ?
+- Outil de design ?
 Les mocks/stubs servent à définir l’usage des composants de votre architecture
 Outil de VOTRE design que vous faites « émerger »
 
 
 Note:
+Documentation c'est les tests, ce sont des exemples
+Spécifications par l'exemple, ATDD, on prouve (à soi et au métier s'il faut)
+Outil, et non la silver bullet. Donc ça aide, mais ne fait pas la travail à votre place.
