@@ -49,3 +49,22 @@ Vérifie le comportement attendu, pas les détails d’implémentation
 Les mocks/stubs servent à définir l’usage des composants de votre architecture
 Outil, et non la silver bullet. Donc ça aide, mais ne fait pas la travail à votre place.
 Outil de VOTRE design que vous faites « émerger »
+
+---
+
+#### La méthodologie
+
+<img src="resources/img/Extreme_Programming.jpg" style="height:600px;" />
+
+"Agilité appliquée au développement"
+
+Note:
+3 lois du TDD => Secondes / Minutes
+Red/green/refactor => 10aines de minutes
+Green/Refactor/green => Secondes / Minutes
+Acceptance tests (BDD ou autre) => Heures
+Aka « double loop TDD »
+
++++
+
+#### 3 lois du TDD
