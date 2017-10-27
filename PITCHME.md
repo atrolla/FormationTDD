@@ -126,3 +126,14 @@ public void should_be_able_to_send_an_email() throws Exception {
     assertThat(messages[0].getFrom()[0].toString()).isEqualTo(EMAIL_TO);
 }
 ```
+@[1-22]
+@[2](Should)
+@[3-7](Arrange)
+@[8-11](Act)
+@[13-20](Assert/Verify)
+
+Note:
+Should
+Arrange
+Act
+Assert/Verify
