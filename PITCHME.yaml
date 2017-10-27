@@ -1,3 +1,4 @@
 footnote : "Arolla - Yvan VU @JeSuisSocial - Formation TDD"
 theme-override : resources/PITCHME.css
 transition : none
+highlight: idea
