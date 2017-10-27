@@ -102,7 +102,7 @@ Aka « double loop TDD »
 ---
 
 #### Anatomie d'un test
-```
+```java
 @Test
 public void should_be_able_to_send_an_email() throws Exception {
     //
