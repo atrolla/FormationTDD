@@ -154,23 +154,28 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 
 #### Exemple : FizzBuzz
 
-![FizzBuzz](resources/img/fizzbuzz.png)
-Une méthode prend un nombre > 0 en argument et retourne :
-- Fizz pour tous les multiples de 3
-- Buzz pour tous les multiples de 5
-- Le nombre lui-même sinon
+<table>
+<tr>
+    <td>Une méthode prend un nombre > 0 en argument et retourne :<br/>
+- Fizz pour tous les multiples de 3<br/>
+- Buzz pour tous les multiples de 5<br/>
+- Le nombre lui-même sinon</td><br/>
+    <td><img src="resources/img/fizzbuzz.png" style="height:560px;" /></td>
+</tr>
+</table>
 
 +++
 
 #### A vous : Leap Year
 
-Une méthode qui retourne vrai ou faux selon 
-que l’entier en argument est une année bissextile ou non.
-
+<p class=alignLeft>Une méthode qui retourne vrai ou faux selon 
+que l’entier en argument est une année bissextile ou non.</p>
+<p class=alignLeft>
 Une année bissextile est divisible par 4, mais n’est pas divisible par 100 
-à moins qu’elle soit aussi divisible par 400.
-
-2001 est une année normale typique
-1996 est une année bissextile typique
-1900 est une année normale atypique 
-2000 est une année bissextile atypique
+à moins qu’elle soit aussi divisible par 400.</p>
+<p class=alignLeft>
+2001 est une année normale typique<br/>
+1996 est une année bissextile typique<br/>
+1900 est une année normale atypique<br/>
+2000 est une année bissextile atypique<br/>
+</p>
