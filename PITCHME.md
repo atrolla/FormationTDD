@@ -155,23 +155,24 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 #### Exemple : FizzBuzz
 
 <div>
-  <img style="vertical-align:top" src="https://raw.githubusercontent.com/atrolla/FormationTDD/master/resources/img/fizzbuzz.png" style="height:560px;">
-  <span>Une méthode prend un nombre > 0 en argument et retourne :<br/>
+  <img style="vertical-align:top;height:500px;float:left" src="https://raw.githubusercontent.com/atrolla/FormationTDD/master/resources/img/fizzbuzz.png" style="">
+  <div class="alignLeft">Une méthode prend un nombre > 0 en argument et retourne :<br/>
 - Fizz pour tous les multiples de 3<br/>
 - Buzz pour tous les multiples de 5<br/>
-- Le nombre lui-même sinon</span>
+- Le nombre lui-même sinon</div>
 </div>
+<div style="clear:both"></div>
 
 +++
 
 #### A vous : Leap Year
 
-<p class=alignLeft>Une méthode qui retourne vrai ou faux selon 
+<p class="alignLeft">Une méthode qui retourne vrai ou faux selon 
 que l’entier en argument est une année bissextile ou non.</p>
-<p class=alignLeft>
+<p class="alignLeft">
 Une année bissextile est divisible par 4, mais n’est pas divisible par 100 
 à moins qu’elle soit aussi divisible par 400.</p>
-<p class=alignLeft>
+<p class="alignLeft">
 2001 est une année normale typique<br/>
 1996 est une année bissextile typique<br/>
 1900 est une année normale atypique<br/>
