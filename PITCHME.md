@@ -160,7 +160,7 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 - Fizz pour tous les multiples de 3<br/>
 - Buzz pour tous les multiples de 5<br/>
 - Le nombre lui-même sinon</td><br/>
-    <td><img src="resources/img/fizzbuzz.png" style="height:560px;" /></td>
+    <td><img src="https://raw.githubusercontent.com/atrolla/FormationTDD/master/resources/img/fizzbuzz.png" style="height:560px;" /></td>
 </tr>
 </table>
 
