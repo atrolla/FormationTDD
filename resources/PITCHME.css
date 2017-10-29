@@ -23,6 +23,10 @@
   margin-left: -10%;
 }
 
+.reveal img {
+    border: 0;
+}
+
 .alignLeft {
     text-align: left !important;
 }

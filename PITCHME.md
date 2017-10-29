@@ -223,10 +223,10 @@ Où la formule est une expression valide en notation polonaise inversée.
 </div>
 ---
 
-+++
-
 #### CAFEBABE !
 ![Coffee](https://media.giphy.com/media/RtfosHwQtOrhS/giphy.gif)
+
++++
 
 #### TDD
 - Ce n'est pas que du test
