@@ -149,3 +149,28 @@ Independant: pas de dépendence entre tests, 3 As doivent être bien structurés
 Repeatable: Ne doit pas dépendre de l'environnement, Déterministe -> bien isoler le contexte pour chacun
 Self-Validating: on doit voir tout de suite si le teste passe ou pas
 Timely: le but est de tester un use case et non couvrir 100% du code
+
+---
+
+#### Exemple : FizzBuzz
+
+![FizzBuzz](resources/img/fizzbuzz.png)
+Une méthode prend un nombre > 0 en argument et retourne :
+- Fizz pour tous les multiples de 3
+- Buzz pour tous les multiples de 5
+- Le nombre lui-même sinon
+
++++
+
+#### A vous : Leap Year
+
+Une méthode qui retourne vrai ou faux selon 
+que l’entier en argument est une année bissextile ou non.
+
+Une année bissextile est divisible par 4, mais n’est pas divisible par 100 
+à moins qu’elle soit aussi divisible par 400.
+
+2001 est une année normale typique
+1996 est une année bissextile typique
+1900 est une année normale atypique 
+2000 est une année bissextile atypique
