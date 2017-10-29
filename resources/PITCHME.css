@@ -23,8 +23,8 @@
   margin-left: -10%;
 }
 
-p.alignLeft {
-    text-align: left;
+.alignLeft {
+    text-align: left !important;
 }
 
 .littleFont{
