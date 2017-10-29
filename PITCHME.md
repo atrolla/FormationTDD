@@ -99,6 +99,19 @@ Aka « double loop TDD »
 
 <img src="http://coding-is-like-cooking.info/wp-content/uploads/2013/05/london_school_001.jpg" style="height:560px;" /> 
 
++++
+
+#### TDD c'est facile ?
+![Trop facile](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
+
++++
+
+#### Guide
+- Entrainez-vous !
+- Focus sur le use-case
+- Pas de précipitation
+- Réfléchissez avant de coder
+
 ---
 
 #### Anatomie d'un test
@@ -188,3 +201,29 @@ Une année bissextile est divisible par 4, mais n’est pas divisible par 100
 
 #### Lunch break
 ![Salt Bae](https://media.giphy.com/media/3o7P4F86TAI9Kz7XYk/giphy.gif)
+
++++
+
+#### RPN Calculator
+
+Public double calculate(String formula)
+Où la formule est une expression valide en notation polonaise inversée
+
+Reverse Polish Notation (RPN) est une notation mathématique où chaque operateur suit ses operandes.Contrairement à la notation polonaise standart, où l'opérateur précéde ses opérandes.
+
+<div class="littleFont">
+- 5 3 + => 5+3 => 8<br/>
+- 6 2 / => 6/2 => 3<br/>
+- 5 2 - 7 + => 10<br/>
+- 7 5 2 - + => 10<br/>
+- 3 5 8 x 7 + x => 3x((5x8)+7) => 141<br/>
+- 3 4 2 1 + x + 2 / => (3 + (4 x (2+1)))/2 => 7.5<br/>
+- 1 2 + 4 × 5 + 3 − => ((1+2) x 4) + 5 - 3 => 14<br/>
+</div>
+---
+
+#### TDD
+- Ce n'est pas que du test
+- Ce n'est pas du Test First
+- Méthodologie
+- Outil/Assistant pour le design/développement
