@@ -206,12 +206,10 @@ Une année bissextile est divisible par 4, mais n’est pas divisible par 100
 
 #### RPN Calculator
 
-Public double calculate(String formula)
-Où la formule est une expression valide en notation polonaise inversée
+public double calculate(String formula)
+Où la formule est une expression valide en notation polonaise inversée.
 
-Reverse Polish Notation (RPN) est une notation mathématique où chaque operateur suit ses operandes.Contrairement à la notation polonaise standart, où l'opérateur précéde ses opérandes.
-
-<div class="littleFont">
+<div class="alignLeft littleFont">
 - 5 3 + => 5+3 => 8<br/>
 - 6 2 / => 6/2 => 3<br/>
 - 5 2 - 7 + => 10<br/>
@@ -221,6 +219,11 @@ Reverse Polish Notation (RPN) est une notation mathématique où chaque operateu
 - 1 2 + 4 × 5 + 3 − => ((1+2) x 4) + 5 - 3 => 14<br/>
 </div>
 ---
+
++++
+
+#### CAFEBABE !
+![Coffee](https://media.giphy.com/media/RtfosHwQtOrhS/giphy.gif)
 
 #### TDD
 - Ce n'est pas que du test
