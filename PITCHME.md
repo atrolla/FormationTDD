@@ -168,7 +168,8 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 #### Exemple : FizzBuzz
 
 <div>
-  <img style="vertical-align:top;height:500px;float:left" src="https://raw.githubusercontent.com/atrolla/FormationTDD/master/resources/img/fizzbuzz.png" style="">
+  <img style="vertical-align:top;height:500px;float:left;margin-right:10px;" 
+  src="https://raw.githubusercontent.com/atrolla/FormationTDD/master/resources/img/fizzbuzz.png">
   <div class="alignLeft littleFont">Une méthode prend un nombre > 0 en argument et retourne :<br/><br/>
 - Fizz pour tous les multiples de 3<br/>
 - Buzz pour tous les multiples de 5<br/>
@@ -210,13 +211,15 @@ public double calculate(String formula)
 Où la formule est une expression valide en notation polonaise inversée.
 
 <div class="alignLeft littleFont">
-- 5 3 + => 5+3 => 8<br/>
-- 6 2 / => 6/2 => 3<br/>
-- 5 2 - 7 + => 10<br/>
-- 7 5 2 - + => 10<br/>
-- 3 5 8 x 7 + x => 3x((5x8)+7) => 141<br/>
-- 3 4 2 1 + x + 2 / => (3 + (4 x (2+1)))/2 => 7.5<br/>
-- 1 2 + 4 × 5 + 3 − => ((1+2) x 4) + 5 - 3 => 14<br/>
+<ul>
+<li>5 3 + => 5+3 => 8</li>
+<li>6 2 / => 6/2 => 3</li>
+<li>5 2 - 7 + => 10</li>
+<li>7 5 2 - + => 10</li>
+<li>3 5 8 x 7 + x => 3x((5x8)+7) => 141<br/>
+<li>3 4 2 1 + x + 2 / => (3 + (4 x (2+1)))/2 => 7.5</li>
+<li>1 2 + 4 × 5 + 3 − => ((1+2) x 4) + 5 - 3 => 14</li>
+</ul>
 </div>
 ---
 
