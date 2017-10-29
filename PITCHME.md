@@ -106,18 +106,18 @@ Aka « double loop TDD »
 @Test
 public void should_be_able_to_send_an_email() throws Exception {
     //
-    // GIVEN
+    // GIVEN / Arrange
     //
     Session session = Session.getInstance(new Properties(), null);
     Message msg = createMessage(session);
 
     //
-    // WHEN
+    // WHEN / Act
     //
     sendMessage(session, msg);
 
     //
-    // THEN
+    // THEN / Assert
     //     fetch messages from server
     MimeMessage[] messages = mailServer.getReceivedMessages();
     assertThat(messages).hasSize(1);
@@ -127,13 +127,25 @@ public void should_be_able_to_send_an_email() throws Exception {
 }
 ```
 
-@[2](Should)
-@[3-7](Arrange)
-@[8-12](Act)
-@[13-20](Assert/Verify)
-
 Note:
 Should
 Arrange
 Act
 Assert/Verify
+
++++
+
+#### FIRST
+
+- Fast
+- Independant
+- Repeateable
+- Self-validating
+- Timely Fashion
+
+Note:
+Fast: on a des miliers de tests, ils doivent s'éxécuter rapidement
+Independant: pas de dépendence entre tests, 3 As doivent être bien structurés et isolés
+Repeatable: Ne doit pas dépendre de l'environnement, Déterministe -> bien isoler le contexte pour chacun
+Self-Validating: on doit voir tout de suite si le teste passe ou pas
+Timely: le but est de tester un use case et non couvrir 100% du code
