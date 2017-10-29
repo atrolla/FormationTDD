@@ -154,15 +154,13 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 
 #### Exemple : FizzBuzz
 
-<table>
-<tr>
-    <td>Une méthode prend un nombre > 0 en argument et retourne :<br/>
+<div>
+  <img style="vertical-align:top" src="https://raw.githubusercontent.com/atrolla/FormationTDD/master/resources/img/fizzbuzz.png" style="height:560px;">
+  <span>Une méthode prend un nombre > 0 en argument et retourne :<br/>
 - Fizz pour tous les multiples de 3<br/>
 - Buzz pour tous les multiples de 5<br/>
-- Le nombre lui-même sinon</td><br/>
-    <td><img src="https://raw.githubusercontent.com/atrolla/FormationTDD/master/resources/img/fizzbuzz.png" style="height:560px;" /></td>
-</tr>
-</table>
+- Le nombre lui-même sinon</span>
+</div>
 
 +++
 
