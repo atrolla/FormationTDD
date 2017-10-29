@@ -156,12 +156,17 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 
 <div>
   <img style="vertical-align:top;height:500px;float:left" src="https://raw.githubusercontent.com/atrolla/FormationTDD/master/resources/img/fizzbuzz.png" style="">
-  <div class="alignLeft">Une méthode prend un nombre > 0 en argument et retourne :<br/>
+  <div class="alignLeft littleFont">Une méthode prend un nombre > 0 en argument et retourne :<br/><br/>
 - Fizz pour tous les multiples de 3<br/>
 - Buzz pour tous les multiples de 5<br/>
 - Le nombre lui-même sinon</div>
 </div>
 <div style="clear:both"></div>
+
++++
+
+#### Maintenant : A vous !
+![Coffee Break](http://media.giphy.com/media/687qS11pXwjCM/giphy.gif)
 
 +++
 
@@ -178,3 +183,8 @@ Une année bissextile est divisible par 4, mais n’est pas divisible par 100
 1900 est une année normale atypique<br/>
 2000 est une année bissextile atypique<br/>
 </p>
+
++++
+
+#### Lunch break
+![Salt Bae](https://media.giphy.com/media/3o7P4F86TAI9Kz7XYk/giphy.gif)
