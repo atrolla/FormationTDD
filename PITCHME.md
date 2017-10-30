@@ -46,13 +46,38 @@ _Michael Feathers_
 
 ---
 
+CleanCode
 
+---
 
-#### Comment on teste ?
+#### Meaningful Name
 
-- Manuel vers Automatique
-- QA pour la conception, Dev pour la réalisation
-- Tests à postériori vers Tests avant implémentation
+- Use Intention Revealing Names
+- Use pronounceable names
+- No magical number
+- Avoid Encoding (Hungarian notation)
+- Avoid Mental Mapping
+
+- Class names
+- Use only nouns
+- Avoid words like Manager, Data, Info
+
+- Method Names
+- Must contain a verb
+
+--- 
+
+#### Comments
+
+<img src="http://geekandpoke.typepad.com/photos/uncategorized/2008/07/24/goodcomments.jpg" style="height:560px;" >
+
++++
+
+<img src="http://geekandpoke.typepad.com/.a/6a00d8341d3df553ef014e5f3e2868970c-800wi" style="height:560px;"  >
+
+---
+
+#### Formatting
 
 ---
 
@@ -81,7 +106,7 @@ Outil de VOTRE design que vous faites « émerger »
 
 #### La méthodologie
 
-<img src="resources/img/Extreme_Programming.png" style="height:560px;" />
+<img src="resources/img/Extreme_Programming.png" style="height:560px;"  />
 
 "Agilité appliquée au développement"
 
