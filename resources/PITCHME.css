@@ -31,6 +31,10 @@
     text-align: left !important;
 }
 
+.reveal blockquote {
+    font-size: 0.8em;
+}
+
 .littleFont{
     font-size: 0.8em !important;
 }

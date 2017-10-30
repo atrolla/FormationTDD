@@ -23,21 +23,25 @@ tour de table, on demande à chacun ce qu'il pense
 +++
 
 > "Any fool can write code that a computer can understand.Good programmers write code that humans can understand."
+
 _Martin Fowler_
 
 +++
 
-<img src="https://media.giphy.com/media/oFVr84BOpjyiA/giphy.gif" style="height:500px;" />
+<img src="https://media.giphy.com/media/oFVr84BOpjyiA/giphy.gif" style="height:350px;" />
 > “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.”
+
 _Martin Golding_
 
 +++
 
-<img src="http://www.watchtower-security.com/wp-content/uploads/2016/11/broken_windows.png" style="height:600px;" />
+#### Broken Windows Theory
+<img src="http://www.watchtower-security.com/wp-content/uploads/2016/11/broken_windows.png" style="height:500px;" />
 
 +++
 
 > “Clean code always looks like it was written by someone who cares.”
+
 _Michael Feathers_
 
 ---
