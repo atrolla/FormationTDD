@@ -1,25 +1,48 @@
 ---?image=resources/img/arolla-software-craftsmanship.jpg
 
-# Formation TDD
+# Formation Clean Code
 
 Note: 
 Faire un tour de table, se présenter, demander pourquoi les gens sont là.
 
 ---
 
-## Pourquoi le TDD ?
+## C'est quoi le Clean Code ?
 
 Note: 
-Pourquoi on teste ? TDD selon vous ? (permet de voir si public sensibilisé)
--> ce n'est pas au client de tester
--> preuve que cela marche dans des conditions (de tests)
--> confiance - image de soi/société
+tour de table, on demande à chacun ce qu'il pense
 
 +++
 
-<img src="resources/img/tester-c-est-douter.jpg" style="height:600px;" />
+<img src="resources/img/CleanCode_WordCloud.png" style="height:600px;" />
+
++++
+
+<img src="resources/img/WTFs_per_minute_Quotient.jpg" style="height:600px;" />
+
++++
+
+> "Any fool can write code that a computer can understand.Good programmers write code that humans can understand."
+_Martin Fowler_
+
++++
+
+<img src="https://media.giphy.com/media/oFVr84BOpjyiA/giphy.gif" style="height:500px;" />
+> “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.”
+_Martin Golding_
+
++++
+
+<img src="http://www.watchtower-security.com/wp-content/uploads/2016/11/broken_windows.png" style="height:600px;" />
+
++++
+
+> “Clean code always looks like it was written by someone who cares.”
+_Michael Feathers_
 
 ---
+
+
 
 #### Comment on teste ?
 
