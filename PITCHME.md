@@ -28,7 +28,7 @@ _Martin Fowler_
 
 +++
 
-<img src="https://media.giphy.com/media/oFVr84BOpjyiA/giphy.gif" style="height:350px;" />
+<img src="https://media.giphy.com/media/oFVr84BOpjyiA/giphy.gif" style="height:280px;" />
 > “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.”
 
 _Martin Golding_
