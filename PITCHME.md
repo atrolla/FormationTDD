@@ -208,7 +208,7 @@ Une année bissextile est divisible par 4, mais n’est pas divisible par 100
 #### RPN Calculator
 
 public double calculate(String formula)
-Où la formule est une expression valide en notation polonaise inversée.
+où la formule est une expression valide en notation polonaise inversée.
 
 <div class="alignLeft littleFont">
 <ul>
