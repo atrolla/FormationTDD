@@ -110,10 +110,26 @@ Cela rend le code difficile à lire, car on doit mentalement changer de monde.
 
 #S.O.L.I.D.
 
+Note:
+Principes pour l'orienté objet, recommandations d'expert dans le domaine.
+Facilite la maintenant, l'évolution, l'adaptation, la scalabilité et le design des applications.
+
 ---
 
 ## S.O.L.I.D.
 
 #SRP
 
----
++++
+
+<img src="resources/img/SRP.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/SRP_knife.jpg" style="height:560px;"  >
+
++++
+
+<img src="http://www.ana-white.com/sites/default/files/DIY%20Kids%20Workbench%20f-4.jpg" style="height:560px;"  >
+
++++
