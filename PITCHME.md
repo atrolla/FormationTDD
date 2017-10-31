@@ -47,6 +47,10 @@ _Michael Feathers_
 ---
 
 CleanCode
+<img src="https://images-na.ssl-images-amazon.com/images/I/41wGTnmRTFL._SX375_BO1,204,203,200_.jpg" style="height:500px;" />
+
+Note:
+La formation est inspiré de ce livre, où les cas que l'on va voir sont étudiés plus en profondeur
 
 ---
 
@@ -57,15 +61,13 @@ CleanCode
 - No magical number
 - Avoid Encoding (Hungarian notation)
 - Avoid Mental Mapping
-
 - Class names
 - Use only nouns
 - Avoid words like Manager, Data, Info
-
 - Method Names
 - Must contain a verb
 
---- 
++++ 
 
 #### Comments
 
@@ -75,9 +77,100 @@ CleanCode
 
 <img src="http://geekandpoke.typepad.com/.a/6a00d8341d3df553ef014e5f3e2868970c-800wi" style="height:560px;"  >
 
----
++++
 
 #### Formatting
+
+- Indentation
+- Error Handling
+- Code Convention
+
++++?gist=kondo-takuto-mulodo/20968d8720c38cf3ff58&lang=Java
+
+---
+
+<img src="resources/img/CleanCode-Programme.jpg" style="height:560px;"  >
+
+---
+
+# SLAP
+
++++
+
+```java
+public void addOrder(ShoppingCart cart, String userName,
+    Order order) throws SQLException {
+    Connection c = null;
+    Statement s = null;
+    boolean transactionState = false;
+    try {
+        c = dbPool.getConnection();
+        s = c.createStatement();
+        transactionState = c.getAutoCommit();
+        int userKey = getUserKey(userName, c);
+        c.setAutoCommit(false);
+        addSingleOrder(order, c, s, userKey);
+        int orderKey = getOrderKey(s);
+        addLineItems(cart, c, orderKey);
+        c.commit();
+        order.setOrderKeyFrom(orderKey);
+    } catch (SQLException sqlx) {
+        c.rollback();
+        throw sqlx;
+    } finally {
+        try {
+            c.setAutoCommit(transactionState);
+            dbPool.release(c);
+            if (s != null)
+                s.close();
+            if (ps != null)
+                ps.close();
+        } catch (SQLException ignored) {}
+    }
+}
+```
+
+Note:
+Single Level of Abstraction Principle
+On mélande ici des méthodes d'accès direct à une base de données et des méthodes métiers.
+Cela rend le code difficile à lire, car on doit mentalement changer de monde.
+
++++
+
+```Java
+protected void withinTransaction(StatementCommand cmd)
+throws SQLException {
+    Connection c = dbPool.getConnection();
+    boolean previousAutoCommit = c.getAutoCommit();
+    Statement stmt = null;
+    try {
+        deactivateAutoCommit(c);
+        stmt = c.createStatement();
+        cmd.execute(c, stmt);
+        c.commit();
+    } catch (SQLException sqlx) {
+        rollbackTransaction(c);
+        throw sqlx;
+    } finally {
+        closeStatement(stmt);
+        revertAutoCommit(c, previousAutoCommit);
+        dbPool.release(c);
+    }
+}
+public void addOrder(final ShoppingCart cart,
+    final String userName,
+    final Order order) throws SQLException {
+    withinTransaction(new StatementCommand() {
+        public void execute(Connection c, Statement s) {
+            int userKey = getUserKey(userName, c);
+            addSingleOrder(order, c, s, userKey);
+            int orderKey = getOrderKey(s);
+            addLineItems(cart, c, orderKey);
+            order.setOrderKeyFrom(orderKey);
+        }
+    });
+}
+```
 
 ---
 
