@@ -83,7 +83,9 @@ La formation est inspiré de ce livre, où les cas que l'on va voir sont étudi�
 - Error Handling
 - Code Convention
 
-+++?gist=kondo-takuto-mulodo/20968d8720c38cf3ff58&lang=Java
++++
+
+<img src="resources/img/formatting.jpg" style="height:560px;"  >
 
 ---
 
@@ -95,7 +97,7 @@ La formation est inspiré de ce livre, où les cas que l'on va voir sont étudi�
 
 +++
 
-<img src="resources/img/formatting.jpg" style="height:560px;"  >
+<img src="resources/img/slap.jpg" style="height:560px;"  >
 
 Note:
 Single Level of Abstraction Principle
@@ -104,7 +106,7 @@ Cela rend le code difficile à lire, car on doit mentalement changer de monde.
 
 +++
 
-<img src="resources/img/slap.jpg" style="height:560px;"  >
+<img src="resources/img/slap2.jpg" style="height:560px;"  >
 
 ---
 
