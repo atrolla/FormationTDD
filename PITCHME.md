@@ -1,13 +1,15 @@
 ---?image=resources/img/arolla-software-craftsmanship.jpg
 
-# Formation Clean Code
+## Formation Clean Code
 
 Note: 
 Faire un tour de table, se présenter, demander pourquoi les gens sont là.
 
 ---
 
-## C'est quoi le Clean Code ?
+## Clean Code ?
+
+<img src="https://media.giphy.com/media/l3q2FYwodNhav5guQ/giphy.gif" style="height:300px;" />
 
 Note: 
 tour de table, on demande à chacun ce qu'il pense
