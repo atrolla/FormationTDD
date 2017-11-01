@@ -38,3 +38,11 @@
 .littleFont{
     font-size: 0.8em !important;
 }
+
+.smallerFont{
+    font-size: 0.55em !important;
+}
+
+.reveal h6 {
+    font-size: 0.8em !important;
+}

@@ -139,13 +139,15 @@ Facilite la maintenant, l'évolution, l'adaptation, la scalabilité et le design
 
 ###### A class should have one and only one reason to change, meaning that a class should have only one job.
 
-Smells : 
-- Large Class
-- Long Method
-- Lot of methods
-- High Coupling/Low cohesion
-- Helper class
-- Multiple functional/technical concepts at the same place
+<p class="smallerFont alignLeft" >Smells : </p>
+<ul class="smallerFont">
+<li>Large Class</li>
+<li>Long Method</li>
+<li>Lot of methods</li>
+<li>High Coupling/Low cohesion</li>
+<li>Helper class</li>
+<li>Multiple functional/technical concepts at the same place</li>
+</ul>
 
 ---
 
@@ -182,13 +184,122 @@ Notez la composition des filtres
 
 ###### Objects or entities should be open for extension, but closed for modification.
 
-Smells : 
-- Complex switch/Lot of ifs
-- High cyclomatic complexity
-- Heavy use of polymorphism
+<p class="smallerFont alignLeft" >Smells : </p>
+<ul class="smallerFont">
+<li>High cyclomatic complexity</li>
+<li>Complex switch/Lot of ifs </li>
+<li>Heavy use of polymorphism</li>
+</ul>
 
 ---
 
 ## S.O.L.I.D.
 
 #### LSP
+
++++
+
+<img src="resources/img/lsp.jpg" style="height:560px;"  >
+
++++
+
+<img src="https://lostechies.com/derickbailey/files/2011/03/LiskovSubtitutionPrinciple_52BB5162.jpg" style="height:560px;"  >
+
++++
+
+#### Liskov Substitution Principle
+
+###### Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.
+
+<p class="smallerFont alignLeft" >Smells : </p>
+<ul class="smallerFont">
+<li>You have to check for the type provided (e.g. instanceof)</li>
+<li>Every subclass/derived class should be substitutable for their base/parent class</li>
+</ul>
+
+---
+
+## S.O.L.I.D.
+
+#### ISP
+
++++
+
+<img src="resources/img/isp-printer.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/isp-printer-java.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/isp-printer-java2.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/isp-servlet.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/isp-servlet2.jpg" style="height:560px;"  >
+
++++
+
+#### Interface Segregation Principle
+
+###### A client should never be forced to implement an interface that it doesn’t use
+or
+###### clients shouldn’t be forced to depend on methods they do not use
+
+<p class="smallerFont alignLeft" >Smells : </p>
+<ul class="smallerFont">
+<li>Fat interface/Class with lot of methods</li>
+<li>Interface has multiple responsibilities</li>
+<li>Difficulties to expose a subset of responsibilities</li>
+</ul>
+
+---
+
+## S.O.L.I.D.
+
+#### DIP
+
++++
+
+<img src="resources/img/dip.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/dip-2.jpg" style="height:560px;"  >
+
++++
+
+#### Dependency Inversion Principle
+
+###### Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+
+<p class="smallerFont alignLeft" >Smells : </p>
+<ul class="smallerFont">
+<li>Dependencies between classes (vs interface)</li>
+<li>Monolithic architecture</li>
+<li>Abstraction depends on details/implementation</li>
+</ul>
+
+
++++
+
+#### And Then...
+
+#### Inject them with Spring and put annotation !
+
+###### (joking)
+
++++
+
+<img src="resources/img/annotations.jpg" style="height:560px;"  >
+
+---
+
+<img src="https://media.giphy.com/media/VUgs2T6uHERXO/giphy.gif" style="height:560px;"  >
+
+---
