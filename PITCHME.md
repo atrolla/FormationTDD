@@ -217,6 +217,18 @@ Notez la composition des filtres
 <li>Every subclass/derived class should be substitutable for their base/parent class</li>
 </ul>
 
++++
+
+#### Liskov Substitution Principle
+
+###### if S is a subtype of T, then objects of type T may be replaced with objects of type S (i.e. an object of type T may be substituted with any object of a subtype S) without altering any of the desirable properties of T (correctness, task performed, etc.)
+
+<p class="smallerFont alignLeft" >Smells : </p>
+<ul class="smallerFont">
+<li>You have to check for the type provided (e.g. instanceof)</li>
+<li>Every subclass/derived class should be substitutable for their base/parent class</li>
+</ul>
+
 ---
 
 ## S.O.L.I.D.
@@ -276,7 +288,9 @@ or
 
 #### Dependency Inversion Principle
 
-###### Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+###### Entities must depend on abstractions not on concretions. 
+
+###### It states that the high level module must not depend on the low level module, but they should depend on abstractions.
 
 <p class="smallerFont alignLeft" >Smells : </p>
 <ul class="smallerFont">
@@ -288,9 +302,7 @@ or
 
 +++
 
-#### And Then...
-
-#### Inject them with Spring and put annotation !
+#### How to inject with Spring and Annotations !
 
 ###### (joking)
 
