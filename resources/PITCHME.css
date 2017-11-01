@@ -46,4 +46,5 @@
 .reveal h6 {
     font-size: 0.8em !important;
     color: blue !important;
+    font-weight: normal !important;
 }

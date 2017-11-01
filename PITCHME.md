@@ -221,13 +221,22 @@ Notez la composition des filtres
 
 #### Liskov Substitution Principle
 
-###### if S is a subtype of T, then objects of type T may be replaced with objects of type S (i.e. an object of type T may be substituted with any object of a subtype S) without altering any of the desirable properties of T (correctness, task performed, etc.)
+###### if S is a subtype of T, an object of type T may be substituted with any object of a subtype S
+
+###### without altering any of the desirable properties of T (correctness, task performed, etc.)
 
 <p class="smallerFont alignLeft" >Smells : </p>
 <ul class="smallerFont">
 <li>You have to check for the type provided (e.g. instanceof)</li>
 <li>Every subclass/derived class should be substitutable for their base/parent class</li>
 </ul>
+
+---
+
+<img src="https://media.giphy.com/media/eBCnpuRGBhQGY/giphy.gif" style="height:560px;"  >
+
+Note:
+C'est bon vous suivez toujours ?
 
 ---
 
@@ -348,6 +357,22 @@ or
 
 ###### Review
 
++++
+
+#### Calisthenics
+
+- Only One Level Of Indentation Per Method
+- Don’t Use The ELSE Keyword
+- Wrap All Primitives And Strings
+- First Class Collections
+- One Dot Per Line
+- Don’t Abbreviate
+- Keep All Entities Small
+- No Classes With More Than Two Instance Variables
+- No Getters/Setters/Properties
+
+<p class="smallerFont alignLeft">http://williamdurand.fr/2013/06/03/object-calisthenics/</p>
+
 ---
 
 #### Birthday Greeting Kata
@@ -371,10 +396,4 @@ Problem: write a program that
 +++
 
 <img src="resources/img/hexa-archi3.jpg" style="height:560px;"  >
-
----
-
-#### Composition
-over
-#### Inheritance
 
