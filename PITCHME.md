@@ -46,7 +46,6 @@ _Michael Feathers_
 
 ---
 
-CleanCode
 <img src="https://images-na.ssl-images-amazon.com/images/I/41wGTnmRTFL._SX375_BO1,204,203,200_.jpg" style="height:500px;" />
 
 Note:
@@ -110,7 +109,7 @@ Cela rend le code difficile à lire, car on doit mentalement changer de monde.
 
 ---
 
-#S.O.L.I.D.
+# S.O.L.I.D.
 
 Note:
 Principes pour l'orienté objet, recommandations d'expert dans le domaine.
@@ -120,7 +119,7 @@ Facilite la maintenant, l'évolution, l'adaptation, la scalabilité et le design
 
 ## S.O.L.I.D.
 
-#SRP
+#### SRP
 
 +++
 
@@ -135,3 +134,61 @@ Facilite la maintenant, l'évolution, l'adaptation, la scalabilité et le design
 <img src="http://www.ana-white.com/sites/default/files/DIY%20Kids%20Workbench%20f-4.jpg" style="height:560px;"  >
 
 +++
+
+#### Single Responsibility Principle
+
+###### A class should have one and only one reason to change, meaning that a class should have only one job.
+
+Smells : 
+- Large Class
+- Long Method
+- Lot of methods
+- High Coupling/Low cohesion
+- Helper class
+- Multiple functional/technical concepts at the same place
+
+---
+
+## S.O.L.I.D.
+
+#### OCP
+
++++
+
+<img src="resources/img/OCP.jpg" style="height:560px;"  >
+
+Note:
+the method have to be changed each time we want to add support for a new directive. It’s therefore not closed for modification.
+chaque cas du switch peut être mis à part dans une classe commande, où on lui passe le contexte
+
++++
+
+<img src="resources/img/ocp2-1.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/ocp2-2.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/ocp2-3.jpg" style="height:560px;"  >
+
+Note:
+Notez la composition des filtres
+
++++
+
+#### Open Closed Principle
+
+###### Objects or entities should be open for extension, but closed for modification.
+
+Smells : 
+- Complex switch/Lot of ifs
+- High cyclomatic complexity
+- Heavy use of polymorphism
+
+---
+
+## S.O.L.I.D.
+
+#### LSP
