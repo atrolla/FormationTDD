@@ -303,3 +303,66 @@ or
 <img src="https://media.giphy.com/media/VUgs2T6uHERXO/giphy.gif" style="height:560px;"  >
 
 ---
+
+#### YAGNI
+
+###### You Ain't Gonna Need It
+
++++
+
+#### KISS
+
+###### Keep It SImple Stupid
+
++++
+
+#### DRY
+
+###### Don't Repeat Yourself
+
+---
+
+#### Go Further
+
++++
+
+<img src="resources/img/livres.jpg" style="height:560px;"  >
+
+---
+
+#### RPN Calculator
+
+###### Calisthenics
+
+###### Review
+
+---
+
+#### Birthday Greeting Kata
+
+Problem: write a program that
+- Loads a set of employee records from a flat file
+- Sends a greetings email to all employees whose birthday is today
+
++++
+
+<img src="resources/img/layered-archi.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/hexa-archi.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/hexa-archi2.jpg" style="height:560px;"  >
+
++++
+
+<img src="resources/img/hexa-archi3.jpg" style="height:560px;"  >
+
+---
+
+#### Composition
+over
+#### Inheritance
+
