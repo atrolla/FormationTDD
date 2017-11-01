@@ -107,6 +107,10 @@ Cela rend le code difficile à lire, car on doit mentalement changer de monde.
 
 +++
 
+<img src="https://media.giphy.com/media/gfkETzKFBSkBW/giphy.gif" style="height:560px;"  >
+
++++
+
 <img src="resources/img/slap2.jpg" style="height:560px;"  >
 
 ---
