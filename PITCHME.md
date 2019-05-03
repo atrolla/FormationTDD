@@ -200,7 +200,7 @@ http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
 
 +++
 
-@snap[text-07 text-left span-90]
+@snap[midpoint text-07 text-left]
 Today a usual technique is to make a program and then to test it. But: program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence. The only effective way to raise the confidence level of a program significantly is to give a convincing proof of its correctness. But one should not first make the program and then prove its correctness, because then the requirement of providing the proof would only increase the poor programmer’s burden. On the contrary: the programmer should let correctness proof and program grow hand in hand.
 @snapend
 
