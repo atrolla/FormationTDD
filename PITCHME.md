@@ -193,20 +193,21 @@ system.
 3. Through successive repetitions of this process of interlaced testing and design the model ultimately
 becomes the software system itself. 
 
-@snap[south-west text-05]
+@snap[south-west text-05 text-right]
 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
 @snapend
 
 
 +++
 
-@snap[north-east text-left text-08]
+@snap[east text-left text-08]
 Today a usual technique is to make a program and then to test it. But: program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence.
 The only effective way to raise the confidence level of a program significantly is to give a convincing proof of its correctness. But one should not first make the program and then prove its correctness, because then the requirement of providing the proof would only increase the poor programmer’s burden.
+
 On the contrary: the programmer should let correctness proof and program grow hand in hand.
 @snapend
 
-@snap[south-west text-05]
+@snap[south-west text-05 text-right]
 https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
 @snapend
 
