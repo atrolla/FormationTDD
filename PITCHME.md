@@ -185,21 +185,27 @@ Plusieurs types de tests www.testinsane.com
 
 +++
 
-1. A software system can best be designed if the testing is interlaced with the designing instead of being
+@ol[span-50]
+- A software system can best be designed if the testing is interlaced with the designing instead of being
 used after the design.
-2. A simulation which matches the requirements contains the control which organizes the design of the
+- A simulation which matches the requirements contains the control which organizes the design of the
 system.
-3. Through successive repetitions of this process of interlaced testing and design the model ultimately
+- Through successive repetitions of this process of interlaced testing and design the model ultimately
 becomes the software system itself. 
+@olend
 
+@snap[south-west template-note]
 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
+@snapend
+
 
 +++
 
-@size[0.9em](Today a usual technique is to make a program and then to test it. But: program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence. The only effective way to raise the confidence level of a program significantly is to give a convincing proof of its correctness. But one should not first make the program and then prove its correctness, because then the requirement of providing the proof would only increase the poor programmer’s burden. On the contrary: the programmer should let correctness proof and program grow hand in hand.)
+@css[text-7 text-left](Today a usual technique is to make a program and then to test it. But: program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence. The only effective way to raise the confidence level of a program significantly is to give a convincing proof of its correctness. But one should not first make the program and then prove its correctness, because then the requirement of providing the proof would only increase the poor programmer’s burden. On the contrary: the programmer should let correctness proof and program grow hand in hand.)
 
+@snap[south-west template-note]
 https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
-
+@snapend
 
 ---
 
@@ -298,7 +304,7 @@ où la formule est une expression valide en notation polonaise inversée.
 
 ---
 
-Bibliographie / Personnalités
+#### Bibliographie / Personnalités
 - Kent Beck
 - Uncle Bob
 - Martin Fowler
