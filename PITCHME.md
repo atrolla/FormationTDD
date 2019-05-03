@@ -7,63 +7,10 @@ Faire un tour de table, se présenter, demander pourquoi les gens sont là.
 
 ---
 
-## Pourquoi le TDD ?
-
-Note: 
-Pourquoi on teste ? TDD selon vous ? (permet de voir si public sensibilisé)
--> ce n'est pas au client de tester
--> preuve que cela marche dans des conditions (de tests)
--> confiance - image de soi/société
-
-+++
-
-<img src="resources/img/tester-c-est-douter.jpg" style="height:600px;" />
-
----
-
-#### Comment on teste ?
-
-- Manuel vers Automatique
-- QA pour la conception, Dev pour la réalisation
-- Tests à postériori vers Tests avant implémentation
-
----
-
-#### TDD : Les promesses (le ROI)
-
-- Documentation vivante Agile
-- Spécification technique par l’exemple
-- Outil de design ?
+## TDD by the book
 
 Note:
-Dans le même repo que le code de production : synchronisée
-Exécutable : sa validation est à jour
-L’intégration continue, valide cette spécification systématiquement
-Documentation c'est les tests, ce sont des exemples
-
-Spécifications par l'exemple, ATDD, on prouve (à soi et au métier s'il faut)
-BBD peut être vu comme une spécification fonctionnelle vivante et agile
-Écrite avant le code pour implémenter et maintenir la fonctionnalité
-Vérifie le comportement attendu, pas les détails d’implémentation
-
-Les mocks/stubs servent à définir l’usage des composants de votre architecture
-Outil, et non la silver bullet. Donc ça aide, mais ne fait pas la travail à votre place.
-Outil de VOTRE design que vous faites « émerger »
-
----
-
-#### La méthodologie
-
-<img src="resources/img/Extreme_Programming.png" style="height:560px;" />
-
-"Agilité appliquée au développement"
-
-Note:
-3 lois du TDD => Secondes / Minutes
-Red/green/refactor => 10aines de minutes
-Green/Refactor/green => Secondes / Minutes
-Acceptance tests (BDD ou autre) => Heures
-Aka « double loop TDD »
+On rentre dans le vif du sujet direct, mais doucement.
 
 +++
 
@@ -82,35 +29,6 @@ Aka « double loop TDD »
 #### Boucle Red - Green - Refactor 
 
 <img src="resources/img/red-green-refactor.jpg" style="height:560px;" /> 
-
-+++
-
-#### Inside Out
-
-(Classic Chicago school, bottom-up)
-
-#### Outside In
-
-(London School, top-down, mockist TDD)
-
-+++
-
-#### Double loop TDD
-
-<img src="http://coding-is-like-cooking.info/wp-content/uploads/2013/05/london_school_001.jpg" style="height:560px;" /> 
-
-+++
-
-#### TDD c'est facile ?
-![Trop facile](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
-
-+++
-
-#### Guide
-- Entrainez-vous !
-- Focus sur le use-case
-- Pas de précipitation
-- Réfléchissez avant de coder
 
 ---
 
@@ -177,33 +95,174 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 </div>
 <div style="clear:both"></div>
 
+
+---
+
+
+#### TDD c'est facile ?
+![Trop facile](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
+
+---
+
+# Test Driven Development
+
+---
+
+# Test @color[green](Driven) Development
+
+Notes : 
+Accompagner et Montrer le chemin = aide, oriente + dirige
+
+---
+
+# Test Driven @color[green](Development)
+
+Notes : 
+Quel est le but ?
+Utiliser les avantages des ordinateurs pour aider à résoudre un problème
+
+Avantages :
+- Puissance de calcul
+- Coût
+- Disponibilité
+
+Problème :
+Besoin en amont (souvent externe = vient pas de nous)
+Attente forte du résultat - Concurrence marché / Optimisation ...
+
+Résultats
+Valeur ajoutée (ROI) / Besoin de qualité / Besoin de feedback (frustration)
+
+Qualité -> Clean code ?
+
 +++
 
-#### Maintenant : A vous !
-![Coffee Break](http://media.giphy.com/media/687qS11pXwjCM/giphy.gif)
+#### Extreme Programming
+
+<img src="resources/img/Extreme_Programming.png" style="height:560px;" />
+
+"Agilité appliquée au développement"
+
+Note:
+Feedback client => long (ex: notations applis mobiles)
+3 lois du TDD => Secondes / Minutes
+Red/green/refactor => 10aines de minutes
+Green/Refactor/green => Secondes / Minutes
+Acceptance tests (BDD ou autre) => Heures
+Aka « double loop TDD »
+
+
+---
+
+# @color[green](Test) Driven Development
+
+Note: 
+Pourquoi on teste ?
+-> ce n'est pas au client de tester
+-> preuve que cela marche dans des conditions (de tests)
+-> confiance - image de soi/société
 
 +++
 
-#### A vous : Leap Year
-
-<p class="alignLeft">Une méthode qui retourne vrai ou faux selon 
-que l’entier en argument est une année bissextile ou non.</p>
-<p class="alignLeft">
-Une année bissextile est divisible par 4, mais n’est pas divisible par 100 
-à moins qu’elle soit aussi divisible par 400.</p>
-<p class="alignLeft">
-2001 est une année normale typique<br/>
-1996 est une année bissextile typique<br/>
-1900 est une année normale atypique<br/>
-2000 est une année bissextile atypique<br/>
-</p>
+<img src="resources/img/tester-c-est-douter.jpg" style="height:600px;" />
 
 +++
+
+#### Tester
+
+- Casser les illusions
+- Découvrir, Comprendre (Documenter)
+- Manuel vers Automatique
+- Ce n'est pas utiliser le système
+
+Notes : 
+
+- Code qui marche et répond au besoin
+- Produit qui fait ce qui est attendu
+- Process de livraison réactif...
+
+Plusieurs types de tests www.testinsane.com 
+
++++
+
+1. A software system can best be designed if the testing is interlaced with the designing instead of being
+used after the design.
+2. A simulation which matches the requirements contains the control which organizes the design of the
+system.
+3. Through successive repetitions of this process of interlaced testing and design the model ultimately
+becomes the software system itself. I think that it is the key of the approach that has been suggested, that
+there is no such question as testing things after the fact with simulation models, but that in effect the
+testing and the replacement of simulations with modules that are deeper and more detailed goes on with
+the simulation model controlling, as it were, the place and order in which these things are done.
+
+http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
+
++++
+
+Today a usual technique is to make a program and then to test it. But: program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence. The only effective way to raise the confidence level of a program significantly is to give a convincing proof of its correctness. But one should not first make the program and then prove its correctness, because then the requirement of providing the proof would only increase the poor programmer’s burden. On the contrary: the programmer should let correctness proof and program grow hand in hand.
+
+https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
+
+
+---
 
 #### Lunch break
 ![Salt Bae](https://media.giphy.com/media/3o7P4F86TAI9Kz7XYk/giphy.gif)
 
+---
+
+#### TDD : Les promesses (le ROI)
+
+- Documentation vivante Agile
+- Spécification technique par l’exemple
+- Outil de design ?
+
+Note:
+Dans le même repo que le code de production : synchronisée
+Exécutable : sa validation est à jour
+L’intégration continue, valide cette spécification systématiquement
+Documentation c'est les tests, ce sont des exemples
+
+Spécifications par l'exemple, ATDD, on prouve (à soi et au métier s'il faut)
+BBD peut être vu comme une spécification fonctionnelle vivante et agile
+Écrite avant le code pour implémenter et maintenir la fonctionnalité
+Vérifie le comportement attendu, pas les détails d’implémentation
+
+Les mocks/stubs servent à définir l’usage des composants de votre architecture
+Outil, et non la silver bullet. Donc ça aide, mais ne fait pas la travail à votre place.
+Outil de VOTRE design que vous faites « émerger »
+
+---
+
+#### Inside Out
+
+(Classic Chicago school, bottom-up)
+
+#### Outside In
+
+(London School, top-down, mockist TDD)
+
 +++
+
+#### Double loop TDD
+
+<img src="http://coding-is-like-cooking.info/wp-content/uploads/2013/05/london_school_001.jpg" style="height:560px;" /> 
+
++++
+
+#### Guide
+- Entrainez-vous !
+- Focus sur le use-case
+- Pas de précipitation
+- Réfléchissez avant de coder
+
+---
+
+#### Maintenant : A vous !
+![Coffee Break](http://media.giphy.com/media/687qS11pXwjCM/giphy.gif)
+
+---
+
 
 #### RPN Calculator
 
@@ -221,15 +280,31 @@ où la formule est une expression valide en notation polonaise inversée.
 <li>1 2 + 4 × 5 + 3 − => ((1+2) x 4) + 5 - 3 => 14</li>
 </ul>
 </div>
+
 ---
-
-#### CAFEBABE !
-![Coffee](https://media.giphy.com/media/RtfosHwQtOrhS/giphy.gif)
-
-+++
 
 #### TDD
 - Ce n'est pas que du test
 - Ce n'est pas du Test First
 - Méthodologie
 - Outil/Assistant pour le design/développement
+
+---
+
+#### Approfondir le sujet
+- Test Commit & Revert
+- Behaviour Driven Development
+- Object Calisthenics
+- Autres Paradigmes
+- Legacy 
+- Clean Code / Design
+
+---
+
+Bibliographie / Personnalités
+- Kent Beck
+- Uncle Bob
+- Martin Fowler
+- Emilie Bache
+- Llewellyn Falco
+- Sandro Mancuso
