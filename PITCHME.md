@@ -110,14 +110,14 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 
 # Test @color[green](Driven) Development
 
-Notes : 
+Note: 
 Accompagner et Montrer le chemin = aide, oriente + dirige
 
 ---
 
 # Test Driven @color[green](Development)
 
-Notes : 
+Note: 
 Quel est le but ?
 Utiliser les avantages des ordinateurs pour aider à résoudre un problème
 
@@ -175,7 +175,7 @@ Pourquoi on teste ?
 - Manuel vers Automatique
 - Ce n'est pas utiliser le système
 
-Notes : 
+Note: 
 
 - Code qui marche et répond au besoin
 - Produit qui fait ce qui est attendu
@@ -190,16 +190,13 @@ used after the design.
 2. A simulation which matches the requirements contains the control which organizes the design of the
 system.
 3. Through successive repetitions of this process of interlaced testing and design the model ultimately
-becomes the software system itself. I think that it is the key of the approach that has been suggested, that
-there is no such question as testing things after the fact with simulation models, but that in effect the
-testing and the replacement of simulations with modules that are deeper and more detailed goes on with
-the simulation model controlling, as it were, the place and order in which these things are done.
+becomes the software system itself. 
 
 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
 
 +++
 
-Today a usual technique is to make a program and then to test it. But: program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence. The only effective way to raise the confidence level of a program significantly is to give a convincing proof of its correctness. But one should not first make the program and then prove its correctness, because then the requirement of providing the proof would only increase the poor programmer’s burden. On the contrary: the programmer should let correctness proof and program grow hand in hand.
+@size[0.9em](Today a usual technique is to make a program and then to test it. But: program testing can be a very effective way to show the presence of bugs, but is hopelessly inadequate for showing their absence. The only effective way to raise the confidence level of a program significantly is to give a convincing proof of its correctness. But one should not first make the program and then prove its correctness, because then the requirement of providing the proof would only increase the poor programmer’s burden. On the contrary: the programmer should let correctness proof and program grow hand in hand.)
 
 https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
 
