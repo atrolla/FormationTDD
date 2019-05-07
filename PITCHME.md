@@ -76,9 +76,13 @@ Assert/Verify
 
 Note:
 Fast: on a des miliers de tests, ils doivent s'éxécuter rapidement
+
 Independant: pas de dépendence entre tests, 3 As doivent être bien structurés et isolés
+
 Repeatable: Ne doit pas dépendre de l'environnement, Déterministe -> bien isoler le contexte pour chacun
+
 Self-Validating: on doit voir tout de suite si le teste passe ou pas
+
 Timely: le but est de tester un use case et non couvrir 100% du code
 
 ---
@@ -113,6 +117,8 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 Note: 
 Accompagner et Montrer le chemin = aide, oriente + dirige
 
+Test first , importance du guide -> qualité (on y reviendra plus tard)
+
 ---
 
 # Test Driven @color[green](Development)
@@ -145,10 +151,15 @@ Qualité -> Clean code ?
 
 Note:
 Feedback client => long (ex: notations applis mobiles)
+
 3 lois du TDD => Secondes / Minutes
+
 Red/green/refactor => 10aines de minutes
+
 Green/Refactor/green => Secondes / Minutes
+
 Acceptance tests (BDD ou autre) => Heures
+
 Aka « double loop TDD »
 
 
@@ -201,6 +212,8 @@ becomes the software system itself.
 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
 @snapend
 
+Note:
+NATO Software Engineering Conference 1968
 
 +++
 
@@ -214,6 +227,11 @@ But one should not first make the program and then prove its correctness, becaus
 @snap[south-east text-05 text-right]
 Djikstra 1972 - https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
 @snapend
+
+Note:
+Dijkstra
+
+connu pour son algorithme du plus court chemin ou le diner des philosophes
 
 ---
 
