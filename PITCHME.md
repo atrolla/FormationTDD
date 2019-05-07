@@ -136,6 +136,9 @@ Facilite la maintenant, l'évolution, l'adaptation, la scalabilité et le design
 
 <img src="resources/img/SRP.jpg" style="height:560px;"  >
 
+Note:
+Valide, Sauvegarde & Envoi un mail
+
 +++
 
 <img src="resources/img/SRP_knife.jpg" style="height:560px;"  >
@@ -212,9 +215,12 @@ Notez la composition des filtres
 
 <img src="resources/img/lsp.jpg" style="height:560px;"  >
 
+Note:
+Problème de contrat implicite : En tant que client, on ne s'attend pas du carré qu'il ait 2 propriétés + Possible exception
+
 +++
 
-<img src="https://lostechies.com/derickbailey/files/2011/03/LiskovSubtitutionPrinciple_52BB5162.jpg" style="height:560px;"  >
+<img src="http://www.globalnerdy.com/wordpress/wp-content/uploads/2009/07/liskov_substitution_principle_small.jpg" style="height:560px;"  >
 
 +++
 
