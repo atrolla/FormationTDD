@@ -40,3 +40,5 @@ pom.xml :
         </plugins>
     </build>
 ```
+
+autre pom : https://github.com/emilybache/starter/blob/master/java/pom.xml

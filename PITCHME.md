@@ -38,7 +38,7 @@ _Martin Golding_
 +++
 
 #### Broken Windows Theory
-<img src="http://www.watchtower-security.com/wp-content/uploads/2016/11/broken_windows.png" style="height:500px;" />
+<img src="https://cdn.safeopedia.com/images/uploads/window-collage-poster.jpg" style="height:500px;" />
 
 +++
 
@@ -65,6 +65,11 @@ La formation est inspiré de ce livre, où les cas que l'on va voir sont étudi�
 - Class names use only nouns
 (try avoiding words like Manager, Data, Info)
 - Method Names must contain a verb
+
+Note:
+Notation hongroise : ajout du type dans la variable
+
+Abjad : alphabet où on peut omettre les voyelles
 
 +++ 
 
@@ -357,37 +362,12 @@ or
 
 ---
 
-#### RPN Calculator
+### Racing Cars
 
-###### Calisthenics
+https://github.com/emilybache/Racing-Car-Katas
 
-###### Review
-
-+++
-
-#### Calisthenics
-
-- Only One Level Of Indentation Per Method
-- Don’t Use The ELSE Keyword
-- Wrap All Primitives And Strings
-- First Class Collections
-- One Dot Per Line
-- Don’t Abbreviate
-- Keep All Entities Small
-- No Classes With More Than Two Instance Variables
-- No Getters/Setters/Properties
-
-<p class="smallerFont alignLeft">http://williamdurand.fr/2013/06/03/object-calisthenics/</p>
 
 ---
-
-#### Birthday Greeting Kata
-
-Problem: write a program that
-- Loads a set of employee records from a flat file
-- Sends a greetings email to all employees whose birthday is today
-
-+++
 
 <img src="resources/img/layered-archi.jpg" style="height:560px;"  >
 
@@ -402,4 +382,29 @@ Problem: write a program that
 +++
 
 <img src="resources/img/hexa-archi3.jpg" style="height:560px;"  >
+
++++
+
+#### Birthday Greeting Kata
+
+Problem: write a program that
+- Loads a set of employee records from a flat file
+- Sends a greetings email to all employees whose birthday is today
+
+
+---
+
+#### Calisthenics (Bonus)
+
+- Only One Level Of Indentation Per Method
+- Don’t Use The ELSE Keyword
+- Wrap All Primitives And Strings
+- First Class Collections
+- One Dot Per Line
+- Don’t Abbreviate
+- Keep All Entities Small
+- No Classes With More Than Two Instance Variables
+- No Getters/Setters/Properties
+
+<p class="smallerFont alignLeft">http://williamdurand.fr/2013/06/03/object-calisthenics/</p>
 
