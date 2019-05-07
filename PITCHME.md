@@ -299,6 +299,7 @@ https://www.martinfowler.com/articles/mocksArentStubs.html
 #### Maintenant : A vous !
 ![Coffee Break](http://media.giphy.com/media/687qS11pXwjCM/giphy.gif)
 
+
 ---
 
 
@@ -318,6 +319,18 @@ où la formule est une expression valide en notation polonaise inversée.
 <li>1 2 + 4 × 5 + 3 − => ((1+2) x 4) + 5 - 3 => 14</li>
 </ul>
 </div>
+
+---
+
+#### Wallet Kata
+
+Given a Wallet containing Stocks, build a function that compute the value of wallet in a currency.
+
+The Stocks have a quantity and a StockType. The StockType can be for example petroleum, Euros, bitcoins and Dollars.
+
+To value the portfilio in a Currency you can use external api to provide rate exchanges (some are provided below).
+
+http://codingdojo.org/kata/Wallet/
 
 ---
 
