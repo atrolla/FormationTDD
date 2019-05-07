@@ -183,6 +183,10 @@ Note:
 
 Plusieurs types de tests www.testinsane.com 
 
+- Property Based
+- Preuve formelle ?
+- Test UI ?
+
 +++
 
 
@@ -208,7 +212,7 @@ But one should not first make the program and then prove its correctness, becaus
 @snapend
 
 @snap[south-east text-05 text-right]
-https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
+Djikstra 1972 - https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
 @snapend
 
 ---
@@ -235,10 +239,6 @@ BBD peut être vu comme une spécification fonctionnelle vivante et agile
 Écrite avant le code pour implémenter et maintenir la fonctionnalité
 Vérifie le comportement attendu, pas les détails d’implémentation
 
-Les mocks/stubs servent à définir l’usage des composants de votre architecture
-Outil, et non la silver bullet. Donc ça aide, mais ne fait pas la travail à votre place.
-Outil de VOTRE design que vous faites « émerger »
-
 ---
 
 #### Inside Out
@@ -248,6 +248,19 @@ Outil de VOTRE design que vous faites « émerger »
 #### Outside In
 
 (London School, top-down, mockist TDD)
+
+Note:
+Les mocks/stubs servent à définir l’usage des composants de votre architecture
+Outil, et non la silver bullet. Donc ça aide, mais ne fait pas la travail à votre place.
+Outil de VOTRE design que vous faites « émerger »
+
+Dummy = coquille vide
+Fake = Implementations partielles/simples
+Spy = verification appel
+Stub = Renvoie des valeurs en dur
+Mock = Spy/Stub/Fake
+
+https://www.martinfowler.com/articles/mocksArentStubs.html
 
 +++
 
