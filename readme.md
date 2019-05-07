@@ -40,3 +40,6 @@ pom.xml :
         </plugins>
     </build>
 ```
+
+junit 5 pom (avec java 11):
+https://github.com/CodeFX-org/demo-junit-5/blob/master/pom.xml
