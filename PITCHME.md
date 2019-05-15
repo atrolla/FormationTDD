@@ -235,6 +235,12 @@ connu pour son algorithme du plus court chemin ou le diner des philosophes
 
 ---
 
+# Kata
+
+![Kata](https://media.giphy.com/media/gIujbgH7FAkKY/giphy.gif)
+
+---
+
 #### Lunch break
 ![Salt Bae](https://media.giphy.com/media/3o7P4F86TAI9Kz7XYk/giphy.gif)
 
