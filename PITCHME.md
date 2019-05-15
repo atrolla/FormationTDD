@@ -370,7 +370,7 @@ or
 
 # Kata
 
-<img src="https://media.giphy.com/media/6rN3g85ktZwMU/source.gif" style="height:560px;"  >
+![Kata](https://media.giphy.com/media/6rN3g85ktZwMU/source.gif)
 
 Note: Racing Cars
 
@@ -397,7 +397,7 @@ https://github.com/emilybache/Racing-Car-Katas
 
 # Kata
 
-<img src="https://media.giphy.com/media/Q973Dt157EWw8/source.gif" style="height:560px;"  >
+![Kata](https://media.giphy.com/media/Q973Dt157EWw8/source.gif)
 
 
 Note: Birthday Greeting Kata
@@ -422,4 +422,10 @@ Problem: write a program that
 - No Getters/Setters/Properties
 
 <p class="smallerFont alignLeft">http://williamdurand.fr/2013/06/03/object-calisthenics/</p>
+
+---
+
+# Go Deeper
+
+![inception](https://media.giphy.com/media/KtW8svtjCCpxe/giphy.gif)
 
