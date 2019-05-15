@@ -302,35 +302,9 @@ https://www.martinfowler.com/articles/mocksArentStubs.html
 
 ---
 
+# Kata(s)
 
-#### RPN Calculator
-
-public double calculate(String formula)
-où la formule est une expression valide en notation polonaise inversée.
-
-<div class="alignLeft littleFont">
-<ul>
-<li>5 3 + => 5+3 => 8</li>
-<li>6 2 / => 6/2 => 3</li>
-<li>5 2 - 7 + => 10</li>
-<li>7 5 2 - + => 10</li>
-<li>3 5 8 x 7 + x => 3x((5x8)+7) => 141<br/>
-<li>3 4 2 1 + x + 2 / => (3 + (4 x (2+1)))/2 => 7.5</li>
-<li>1 2 + 4 × 5 + 3 − => ((1+2) x 4) + 5 - 3 => 14</li>
-</ul>
-</div>
-
----
-
-#### Wallet Kata
-
-Given a Wallet containing Stocks, build a function that compute the value of wallet in a currency.
-
-The Stocks have a quantity and a StockType. The StockType can be for example petroleum, Euros, bitcoins and Dollars.
-
-To value the portfilio in a Currency you can use external api to provide rate exchanges (some are provided below).
-
-http://codingdojo.org/kata/Wallet/
+![Kata](https://media.giphy.com/media/gIujbgH7FAkKY/giphy.gif)
 
 ---
 
@@ -345,7 +319,6 @@ http://codingdojo.org/kata/Wallet/
 #### Approfondir le sujet
 - Test Commit & Revert
 - Behaviour Driven Development
-- Object Calisthenics
 - Autres Paradigmes
 - Legacy 
 - Clean Code / Design
