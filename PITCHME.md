@@ -368,7 +368,11 @@ or
 
 ---
 
-### Racing Cars
+# Kata
+
+<img src="https://media.giphy.com/media/6rN3g85ktZwMU/source.gif" style="height:560px;"  >
+
+Note: Racing Cars
 
 https://github.com/emilybache/Racing-Car-Katas
 
@@ -391,7 +395,12 @@ https://github.com/emilybache/Racing-Car-Katas
 
 +++
 
-#### Birthday Greeting Kata
+# Kata
+
+<img src="https://media.giphy.com/media/Q973Dt157EWw8/source.gif" style="height:560px;"  >
+
+
+Note: Birthday Greeting Kata
 
 Problem: write a program that
 - Loads a set of employee records from a flat file
