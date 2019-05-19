@@ -20,6 +20,9 @@ On rentre dans le vif du sujet direct, mais doucement.
 2. Vous ne devez pas écrire plus de test unitaire que le minimum pour qu’il échoue et ne pas compiler est un échec.
 3. Vous ne devez pas écrire plus de code de production que le minimum pour faire passer le test unitaire actuellement en échec.
 
+Note:
+A cela on peut rajouter les contraintes Katas, comme enlever la duplication via refacto après 3 cas
+
 +++
 
 <img src="resources/img/3-rules-tdd.jpg" style="height:600px;" /> 
@@ -102,9 +105,11 @@ Timely: le but est de tester un use case et non couvrir 100% du code
 
 ---
 
-
 #### TDD c'est facile ?
 ![Trop facile](https://media.giphy.com/media/3o7btNa0RUYa5E7iiQ/giphy.gif)
+
+Note:
+Avant de s'attaquer aux problèmes concrets, rediscutons du terme.
 
 ---
 
@@ -119,7 +124,24 @@ Accompagner et Montrer le chemin = aide, oriente + dirige
 
 Test first , importance du guide -> qualité (on y reviendra plus tard)
 
+Le guide est neutre : il n'a pas vocation de vous dire ce qui est bien ou pas (si le test est bien ou pas)
+
 ---
+
+# Test Driven @color[green](Development)
+
++++
+
+# Petit jeu
+
+![Game](https://media.giphy.com/media/10ufdvQ4yMxWi4/giphy.gif)
+
+Note:
+2 equipes, 1 bombe
+
+Des gens qui vont dans une pièce, 1 personne qui prend des notes et qui fait le passage.
+
++++
 
 # Test Driven @color[green](Development)
 
@@ -138,6 +160,8 @@ Attente forte du résultat - Concurrence marché / Optimisation ...
 
 Résultats
 Valeur ajoutée (ROI) / Besoin de qualité / Besoin de feedback (frustration)
+
+Ce besoin de feedback doit être traité et on souhaire l'avoir rapidement
 
 Qualité -> Clean code ?
 
@@ -161,7 +185,6 @@ Green/Refactor/green => Secondes / Minutes
 Acceptance tests (BDD ou autre) => Heures
 
 Aka « double loop TDD »
-
 
 ---
 
@@ -208,7 +231,7 @@ system.
 3. Through successive repetitions of this process of interlaced testing and design the model ultimately
 becomes the software system itself. 
 
-@snap[south-east text-05 text-right]
+@snap[south-east text-05 text-right fragment]
 http://homepages.cs.ncl.ac.uk/brian.randell/NATO/nato1968.PDF
 @snapend
 
@@ -224,7 +247,7 @@ But one should not first make the program and then prove its correctness, becaus
 @css[text-bold](On the contrary: the programmer should let correctness proof and program grow hand in hand.)
 @snapend
 
-@snap[south-east text-05 text-right]
+@snap[south-east text-05 text-right fragment]
 Djikstra 1972 - https://www.cs.utexas.edu/~EWD/transcriptions/EWD03xx/EWD340.html
 @snapend
 
@@ -237,7 +260,7 @@ connu pour son algorithme du plus court chemin ou le diner des philosophes
 
 # Kata
 
-![Kata](https://media.giphy.com/media/gIujbgH7FAkKY/giphy.gif)
+![Kata](https://media.giphy.com/media/poUpR9U8CJ560/giphy.gif)
 
 ---
 
@@ -256,6 +279,24 @@ Trouver une solution qui evite de coder = design
 
 ---
 
+#### Refactoring
+
+@ul
+
+- Clean Code
+- TPP [example](https://codurance.com/2015/05/18/applying-transformation-priority-premise-to-roman-numerals-kata/)
+- Test
+- Algorithme...
+
+@ulend
+
+Note:
+CleanCode (qu'on vera demain)
+Transformation Priority Premise
+Refacto les tests !
+
+---
+
 #### TDD : Les promesses (le ROI)
 
 - Documentation vivante Agile
@@ -269,7 +310,7 @@ L’intégration continue, valide cette spécification systématiquement
 Documentation c'est les tests, ce sont des exemples
 
 Spécifications par l'exemple, ATDD, on prouve (à soi et au métier s'il faut)
-BBD peut être vu comme une spécification fonctionnelle vivante et agile
+BDD peut être vu comme une spécification fonctionnelle vivante et agile
 Écrite avant le code pour implémenter et maintenir la fonctionnalité
 Vérifie le comportement attendu, pas les détails d’implémentation
 
