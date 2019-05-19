@@ -246,6 +246,16 @@ connu pour son algorithme du plus court chemin ou le diner des philosophes
 
 ---
 
+# Design
+
+Note:
+design emergent ?
+espace des problèmes - espace des solutions
+architecture - code
+Trouver une solution qui evite de coder = design
+
+---
+
 #### TDD : Les promesses (le ROI)
 
 - Documentation vivante Agile
